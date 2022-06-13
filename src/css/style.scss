@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+html,
+* {
+	transition: all 0.2s;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Flex', sans-serif;
+	text-shadow: 1px 1px 4px black;
+}
+
+#container {
+	background-image: url(../img/iroda1.jpg);
+	background-size: cover;
+
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 12px;
+}
+
+.welcome {
+	h1 {
+		font-size: 64px;
+		text-align: center;
+		margin: 48px;
+	}
+}
+
+.enter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 30vh;
+
+	a {
+		color: aliceblue;
+		font-size: 32px;
+		text-decoration: none;
+		padding: 4px 56px;
+		border: 2px solid aliceblue;
+	}
+
+	a:hover {
+		color: orangered;
+		border: 2px solid aliceblue;
+		border: 2px solid orangered;
+		background-color: rgba($color: orangered, $alpha: 0.3);
+	}
+}
+
+.thanks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 12px auto;
+	max-width: 800px;
+}
+
+.credits {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 12px auto;
+	max-width: 800px;
+}
+
+.sponsors {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	img {
+		max-width: 50px;
+	}
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin: 12px;
+	font-size: 10px;
+}
